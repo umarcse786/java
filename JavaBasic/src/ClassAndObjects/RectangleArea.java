@@ -18,7 +18,10 @@ public class RectangleArea {
 	public static void main(String[] args) {
 		
 		rect r=new rect();
+		rect r1=new rect();
 		r.param(2,5);
+		r1.param(6, 7);
+		
 	}
 
 }
