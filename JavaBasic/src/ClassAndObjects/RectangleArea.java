@@ -9,7 +9,7 @@ class rect{
 	breadth=b;
 	
 		System.out.println("Area is : "+length*breadth);
-		param p=new param();
+	
 	}
 }
 public class RectangleArea {
