@@ -2,26 +2,26 @@ package practice;
 import java.util.Scanner;
 public class avgOfMarks {
 	//public class avarage {
-	int a=10;
-	int b=20;
-	int c=30;
-	int d=40;
-	int e=50;
-	int f=60;
-	int g=70;
+	double a=90.5;
+	double b=85.9;
+	double c=72.3;
+	double d=49.5;
+	double e=54.6;
+	double f=90.5;
+	double g=75.1;
+	double h=88.2;
 	
 		public  void display()
 		{
-			int avg=(a+b+c+d+e+f+g)/7;
+			double avg=(a+b+c+d+e+f+g+h)/8;
 			System.out.println("The aggregate of 8 semisters is : "+avg);
 		
 	}
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
 		avgOfMarks a =new avgOfMarks();		
 		a.display();
-		// TODO Auto-generated method stub
+		
 
 	}
 
